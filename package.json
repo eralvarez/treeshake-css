@@ -1,0 +1,27 @@
+{
+  "name": "ealvarez-treeshakecss",
+  "version": "0.0.1",
+  "description": "Tool to tree-shake unused CSS",
+  "main": "index.js",
+  "bin": {
+    "ealvarez-treeshakecss": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eralvarez/treeshake-css.git"
+  },
+  "author": "Erick Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eralvarez/treeshake-css/issues"
+  },
+  "homepage": "https://github.com/eralvarez/treeshake-css#readme",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "yargs": "17.2.1"
+  }
+}
